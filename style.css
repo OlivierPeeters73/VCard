@@ -1,0 +1,28 @@
+body {
+
+}
+
+#container {
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px;
+
+}
+
+#top {
+    position: relative;
+    top: -21px;
+    left: 0px;
+    width: 600px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(0, 102, 255);
+}
+
+#photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
