@@ -1,28 +1,87 @@
 body {
+  background-image: url(images/background-code.jpg);
+  background-size: cover;
+}
 
+@font-face {
+  font-family: "grobold";
+  src: url(font/GROBOLD.ttf);
+}
+
+@font-face {
+  font-family: "SundayMorning";
+  src: url(font/SundayMorning.ttf);
+}
+
+h1 {
+  font-family: grobold;
+  font-size: 40px;
+  position: relative;
+  left: 175px;
+}
+
+h2 {
+  font-family: SundayMorning;
+  font-size: 25px;
+  position: relative;
+  left: 250px;
 }
 
 #container {
-    width: 600px;
-    height: 400px;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 0px;
-
+  width: 500px;
+  height: 275px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0px;
+  position: absolute;
+  top: 25%;
+  left: 30%;
 }
 
 #top {
-    position: relative;
-    top: -21px;
-    left: 0px;
-    width: 600px;
-    height: 150px;
-    border-radius: 10px 10px 0px 0px;
-    background-color: rgb(0, 102, 255);
+  position: relative;
+  top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(
+    165deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 71, 88, 1) 42%,
+    rgba(0, 189, 255, 1) 100%
+  );
+}
+
+#middle {
+  position: relative;
+  bottom: 0px;
+  padding: 5px;
+  background: white;
+}
+
+#bottom {
+  background-color: blueviolet;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  background: linear-gradient(
+    165deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 71, 88, 1) 42%,
+    rgba(0, 189, 255, 1) 100%
+  );
 }
 
 #photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+  width: 125px;
+  height: 125px;
+  border-radius: 75px;
+  position: relative;
+  top: -225px;
+  left: 35px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin: 11px;
 }
